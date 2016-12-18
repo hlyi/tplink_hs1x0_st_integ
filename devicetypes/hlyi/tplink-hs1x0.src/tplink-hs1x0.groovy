@@ -33,7 +33,8 @@ metadata {
 	command "off"
 }
 
-preferences {
+preferences
+{
 	input("outletIP", "text", title: "Outlet IP", required: true, displayDuringSetup: true)
 	input("bridgeIP", "text", title: "Bridge IP", required: true, displayDuringSetup: true)
 	input("bridgePort", "text", title: "Bridge Port", required: true, displayDuringSetup: true)
